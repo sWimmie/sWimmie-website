@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     gulpif = require('gulp-if'),
     uglify = require('gulp-uglify'),
-    minifyHTML = require('gulp-minify-html'),
+    minifyHTML = require('gulp-htmlmin'),
     concat = require('gulp-concat');
     path = require('path');
 

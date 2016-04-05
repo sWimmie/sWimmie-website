@@ -1,22 +1,40 @@
 {
-  "name": "sWimmie Website",
+  "name": "swimmie-website",
   "version": "0.0.1",
-  "description": "A website that uses single page responsive CSS with Sass, Compass, Susy 2, etc",
+  "description": "A Website that uses single page responsive CSS with Sass, Compass, Susy2, etc",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sWimmie/sWimmie-website.git"
+    "url": "git+https://github.com/sWimmie/sWimmie-website.git"
   },
+  "keywords": [
+    "Responsive",
+    "Sass",
+    "Compass",
+    "Susy",
+    "Breakpoint",
+    "Gulp"
+  ],
   "author": "Wim van Deursen a.k.a. sWimmie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sWimmie/sWimmie-website/issues"
+  },
+  "homepage": "https://github.com/sWimmie/sWimmie-website#readme",
   "devDependencies": {
-    "gulp": "^3.8.7",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^3.2.2",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-if": "^2.0.0",
+    "gulp-uglify": "^1.5.3",
     "gulp-util": "^2.2.20",
-    "gulp-concat": "^2.3.4",
-    "gulp-browserify": "^0.5.0",
-    "jquery": "^2.1.1",
-    "gulp-compass": "^1.2.0",
-    "gulp-connect": "^2.0.6",
-    "gulp-if": "^1.2.4",
-    "gulp-uglify": "^0.3.1",
-    "gulp-minify-html": "^0.1.4"
+    "jquery": "^2.2.2"
   }
 }
